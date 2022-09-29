@@ -2,9 +2,9 @@ Given the supplied text file (INPUT.TXT), write a Java program that loads all wo
 set of vowels present in a word and length of the word. Result should be written to the output file (OUTPUT.TXT).
   
 Assumptions:
-1.      Capital and lower case letter should be treated as the same.
-2.      Input contains only English words and punctuation, words are separated by at least one whitespace character.
-3.      Input is small enough to fit in memory.
+1.Capital and lower case letter should be treated as the same.
+2.Input contains only English words and punctuation, words are separated by at least one whitespace character.
+3.Input is small enough to fit in memory.
   
 Example:
  
@@ -19,6 +19,12 @@ OUTPUT
 ({a, e}, 4) -> 2
 
 
-******************* RUN ********************
+==================================================================================================================
+
+To create an executable JAR file out of the project. run the below maven command.
+
+mvn clean package
+
+==================================================================================================================
 
 java -jar <JAR_FILE> --input=<FiLE_PATH>
